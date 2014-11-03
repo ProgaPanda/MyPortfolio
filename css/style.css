@@ -62,7 +62,7 @@ header {
     text-decoration: none;
 }
 .nav a:visited {
-    color: inherit;
+    color: #5a5a5a;
 }
 #about-nav:hover { color: #3588d7 }
 #skills-nav:hover { color: #52be7f }
