@@ -309,7 +309,6 @@ header {
     cursor: pointer;
 }
 .skill-icon-holder:active {
-    transform: rotate(360deg);
     -webkit-transition: all 0.3s ease;
         -ms-transition: all 0.3s ease;
             transition: all 0.3s ease;
@@ -393,10 +392,3 @@ header {
         font-weight: 300;
     }
 }
-
-
-
-
-
-
-
