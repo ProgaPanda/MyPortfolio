@@ -384,10 +384,14 @@ header {
         margin: 30px auto;
         float: none;
         padding-bottom: 24px;
+        height: auto;
     }
     .right { float: none; }
     .skill-label { font-size: 22px; }
-    .skill-discreption { font-size: 18px; }
+    .skill-discreption { 
+        font-size: 17px; 
+        font-weight: 300;
+    }
 }
 
 
