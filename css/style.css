@@ -57,8 +57,9 @@ header {
     float: left;
     margin-left: 25px;
 }
-.nav a {
+.nav a:link {
     text-decoration: none;
+    color: #5a5a5a;
 }
 .nav a:visited {
     color: #5a5a5a;
