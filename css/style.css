@@ -115,6 +115,11 @@ header {
     display: inline-block;
 }
 
+#info {
+    clear: both;
+    display: inline-block;
+}
+
 /*TO VERTICALLY ALIGN ICONS*/
 #info span {
     color: white;
@@ -379,7 +384,11 @@ header {
 @media (max-width: 980px) {
     #skills { margin-top: 0; }
     .skill-unit {
+<<<<<<< HEAD
         width: 98%;
+=======
+        width: 95%;
+>>>>>>> origin/gh-pages
         display: block;
         margin: 30px auto;
         float: none;
