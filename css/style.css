@@ -108,7 +108,7 @@ header {
 }
 
 .float-left { float: left; }
-.float-right { float: right; }
+.float-right { float: right; margin-right: 20px; }
 
 #info {
     clear: both;
@@ -309,7 +309,6 @@ header {
     cursor: pointer;
 }
 .skill-icon-holder:active {
-    transform: rotate(360deg);
     -webkit-transition: all 0.3s ease;
         -ms-transition: all 0.3s ease;
             transition: all 0.3s ease;
@@ -379,18 +378,17 @@ header {
 @media (max-width: 980px) {
     #skills { margin-top: 0; }
     .skill-unit {
-        width: 95%;
+        width: 98%;
         display: block;
         margin: 30px auto;
         float: none;
-        padding-bottom: 20px;
+        padding-bottom: 24px;
+        height: auto;
     }
     .right { float: none; }
+    .skill-label { font-size: 22px; }
+    .skill-discreption { 
+        font-size: 17px; 
+        font-weight: 300;
+    }
 }
-
-
-
-
-
-
-
