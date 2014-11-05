@@ -324,17 +324,33 @@ header {
 .invert-navy { 
     background-color: #52be7f;
     border-color: #369c61;
+    background-image: url(../assets/handshake1.png);
+    background-repeat: no-repeat;
+    background-size: 55px;
+    background-position: center;
 }
 .invert-yellow { 
     background-color: #bd4932;
+    background-image: url(../assets/objective.png);
+    background-repeat: no-repeat;
+    background-size: 55px;
+    background-position: center;
 }
 .invert-green { 
     background-color: #105b63;
     border-color: #0a3e43;
+    background-image: url(../assets/rocket74.png);
+    background-repeat: no-repeat;
+    background-size: 55px;
+    background-position: center;
 }
 .invert-red { 
     background-color: #ffd34e;
     border-color: #d3ad38;
+    background-image: url(../assets/full9.png);
+    background-repeat: no-repeat;
+    background-size: 55px;
+    background-position: center;
 }
 
 .skill-icon {
@@ -391,4 +407,17 @@ header {
         font-size: 17px; 
         font-weight: 300;
     }
+    .skill-icon-holder:active {
+    -webkit-transition: none;
+        -ms-transition: all 0.3s ease;
+            transition: 
+    transform-origin: center;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 0;
+    margin-top: 0;
+    border-right: 0;
+    border-left: 0;
+}
+
 }
