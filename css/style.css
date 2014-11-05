@@ -418,7 +418,8 @@ header {
     margin-top: 8px;
     border-right: 0;
     border-left: 0;
-    border: 3px solid #525252 ;
+    border: 3px solid #525252;
+    outline: none;
 }
 
 }
