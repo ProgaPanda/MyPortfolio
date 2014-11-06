@@ -343,9 +343,9 @@ header {
     color: #383838;
     margin-top: 5px;
 }
-
-
-/*WORK*/
+/*--------*/
+/*--WORK--*/
+/*--------*/
 .wk { color: #ffd34e; padding-top: 10px; }
 
 #work {
@@ -354,7 +354,8 @@ header {
     width: 100%;
     background-color: #f3f3f3;
     margin-top: 20px;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
+    margin-bottom: 80px;
     border-top: 1px solid #dedede;
     border-bottom: 1px solid #dedede;
 }
@@ -455,6 +456,71 @@ header {
     background-repeat: no-repeat;
     background-size: 350px;
 }
+/*WORK END*/
+/*--------*/
+/*CONTACT*/
+#contact {
+    text-align: center;
+}
+
+.cnt {
+    color: #ea6e6e;
+    padding-bottom: 35px;
+}
+
+#email-big {
+    font-size: 48px;
+    font-weight: 400;
+    color: #ea6e6e;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+#email-big a {
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+            transition: all 0.3s ease;
+}
+#email-big a:visited {
+    color: inherit;
+}
+#email-big a:hover {
+    color: #c74a4a;
+    font-size: 55px;
+    -webkit-transition: all 0.2s ease;
+        -ms-transition: all 0.2s ease;
+            transition: all 0.2s ease;
+}
+
+#social-wraper {
+    display: block;
+    position: relative;
+    width: 300px;
+    height: 100px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.social-foot {
+    float: left;
+    width: 60px;
+    height: 60px;
+    background-color: pink;
+    border-radius: 50%;
+    margin-top: 0;
+    margin-left: 30px;
+    font-size: 32px;
+    line-height: 60px;
+    background-color: #3a7ab6;
+    color: white;
+}
+.social-foot:hover {
+    transform: rotate(360deg);
+    -webkit-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+            transition: all 0.3s ease;
+}
 
 
 
@@ -475,6 +541,16 @@ header {
         margin: 0 auto;
         text-align: center;
         padding-top: 10px;
+    }
+    #work {
+        margin-bottom: 20px;
+    }
+    #email-big {
+        font-size: 32px;
+    }
+    #email-big a:hover {
+        font-size: 32px;
+        color: inherit;
     }
 }
 /*ABOUT WARP*/
@@ -558,7 +634,25 @@ header {
     .work-unit {
         width: 96%;
     }
+    .cnt {
+        font-size: 20px;
+    }
+    #email-big {
+        font-size: 25px;
+    }
+    #email-big a:hover {
+        font-size: 25px;
+        color: inherit;
+    }
     
+    .social-foot {
+        width: 45px;
+        height: 45px;
+        font-size: 22px;
+        line-height: 45px;
+        margin-left: 12px;
+    }
+    #social-wraper { width: 57% }
 }
 
 
