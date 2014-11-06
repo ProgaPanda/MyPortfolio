@@ -556,7 +556,7 @@ header {
 
 @media (max-width: 390px) {
     .work-unit {
-        width: 310px;
+        width: 96%;
     }
     
 }
