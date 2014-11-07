@@ -525,12 +525,21 @@ header {
         -ms-transition: all 0.3s ease;
             transition: all 0.3s ease;
 }
-
-
-
-
-
-
+/*CONTACT END*/
+/*-----------*/
+/*FOOTER*/
+footer {
+    display: block;
+    width: 100%;
+    position: absolute;
+    clear: both;
+    background-color: #f3f3f3;
+    border-top: 1px solid #dedede;
+    text-align: center;
+    color: #666666;
+    font-size: 14px;
+}
+/*FOOTER END*/
 /*---------------*/
 /*RESPONSIVE SHIT*/
 /*---------------*/
@@ -665,6 +674,6 @@ header {
     .margin-0 {
         margin: 0;
     }
+    
+    footer { font-size: 12px; }
 }
-
-
